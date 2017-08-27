@@ -128,8 +128,9 @@ export function hydrateHtml(config: BuildConfig, ctx: BuildContext, registry: Co
       messageText: 'No elements connected'
     });
     hydrateResults.html = opts.html;
-    callback(hydrateResults);
   }
+
+  callback(hydrateResults);
 }
 
 
